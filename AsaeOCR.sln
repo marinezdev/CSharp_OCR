@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsaeOCR", "AsaeOCR\AsaeOCR.csproj", "{AA26F48C-561A-42DB-A884-2376CA6ADD4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA26F48C-561A-42DB-A884-2376CA6ADD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA26F48C-561A-42DB-A884-2376CA6ADD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA26F48C-561A-42DB-A884-2376CA6ADD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA26F48C-561A-42DB-A884-2376CA6ADD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4506C2C3-8048-4A66-8A53-57F3BC96A623}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Proceso01";
+}
+
+<h2>Proceso01</h2>
+
+<h3>Proceso automatizado para convertir un pdf en un tif y obener texto vía ocr, automáticamente.</h3>
+
+<form method="post" action="~/Procesos/Proceso01">
+
+    <table>
+        <tr><td>Seleccionar un archivo PDF para procesar0</td></tr>
+        <tr><td> </td></tr>
+        <tr><td>Modo Motor Tesseract</td><td><select name="modo"><option value="1">Default</option><option value="2">LstmOnly</option><option value="3">TesseractAndLstm</option><option value="4">TesseractOnly</option></select></td></tr>
+        <tr><td>Resolución</td><td><input type="number" name="resolucion" /> (96, 150, 300, 600, 900, 1000 +)</td></tr>
+        <tr><td colspan="2" align="center"><button type="submit">Aceptar</button></td></tr>
+    </table>
+
+</form>
+
+@Html.Raw(ViewBag.Mensaje)
